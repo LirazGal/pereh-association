@@ -128,17 +128,20 @@
       max-width: 900px;
       margin: 0 auto;
       gap: 12px;
+      direction: ltr;
     }
     .carousel-viewport {
       overflow: hidden;
       border-radius: 16px;
       flex: 1;
       box-shadow: 0 8px 30px rgba(0,0,0,0.15);
+      position: relative;
     }
     .carousel-track {
       display: flex;
       transition: transform 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
       will-change: transform;
+      direction: ltr;
     }
     .carousel-slide {
       min-width: 100%;
@@ -177,6 +180,7 @@
       justify-content: center;
       gap: 8px;
       margin-top: 16px;
+      direction: ltr;
     }
     .carousel-dot {
       width: 10px;
